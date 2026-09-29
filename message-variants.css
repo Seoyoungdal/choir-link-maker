@@ -1,0 +1,6 @@
+.choir-form{grid-template-columns:105px 85px 120px 135px minmax(220px,1fr) 75px 155px;width:min(1180px,100%)}
+.brand{display:flex;align-items:center;gap:9px}.brand-icon{width:36px;height:36px;border-radius:10px;object-fit:cover;box-shadow:0 2px 7px rgba(43,28,17,.14)}
+.field-wrap{display:block;position:relative}.field-wrap input{padding-right:36px}.clear-input{position:absolute;right:7px;top:50%;transform:translateY(-50%);width:28px;height:28px;padding:0;border:0;border-radius:50%;background:transparent;color:#8a867e;font-size:21px;line-height:1;cursor:pointer}.clear-input:hover,.clear-input:focus-visible{background:#ebe6dc;color:var(--ink);outline:none}.choir-form .clear-input{margin-top:3px}.settings-panel>.field-wrap{min-width:190px}.settings-panel>.field-wrap input{width:100%}
+.message-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.message-grid .message-box{margin-top:54px}.caption-box{border-top:3px solid var(--red)}
+@media(max-width:1000px){.choir-form{grid-template-columns:1fr 1fr}.song-field{grid-column:1/3}.choir-form>button{grid-column:1/3}}
+@media(max-width:760px){.message-grid{grid-template-columns:1fr;gap:0}.message-grid .message-box+.message-box{margin-top:20px}}
