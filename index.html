@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#ef392f">
+  <title>찬양링크</title>
+  <meta name="description" content="찬양곡의 파트별 연습 영상을 찾아 검증하고 카카오톡 공지문으로 정리합니다.">
+  <style>
+    :root{--ink:#191919;--muted:#737373;--paper:#f6f2e9;--red:#ed3528;--line:#d9d4ca;--white:#fffefa;--green:#176b35;--amber:#805600}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,"Apple SD Gothic Neo","Noto Sans KR",sans-serif}button,input{font:inherit}button,a{-webkit-tap-highlight-color:transparent}.topbar{height:72px;padding:0 5vw;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:9px;color:var(--ink);font-size:21px;font-weight:900}.logo{display:grid;place-items:center;width:34px;height:34px;border-radius:11px;background:var(--red);color:#fff}.settings{border:0;background:transparent;color:#555;font-weight:700;cursor:pointer}.hero{position:relative;overflow:hidden;padding:58px 5vw 48px;border-bottom:1px solid var(--line)}.hero:after{content:"♪";position:absolute;right:5vw;top:-25px;color:rgba(237,53,40,.06);font-size:300px;line-height:1;pointer-events:none}.hero>*{position:relative;z-index:1}.eyebrow,.section-title span{color:var(--red);font-size:11px;font-weight:900;letter-spacing:.16em}h1{max-width:850px;margin:14px 0 12px;font-size:clamp(38px,6vw,70px);line-height:1.08;letter-spacing:-.055em}h1 em{color:var(--red);font-style:normal}.intro{color:var(--muted);font-size:16px}.form{display:grid;grid-template-columns:120px 150px 170px 170px minmax(230px,1fr) 90px;gap:10px;width:min(1120px,100%);margin-top:30px}.form label{color:#777;font-size:12px;font-weight:800}.field{position:relative;display:block}.form input,.key-input{display:block;width:100%;height:52px;margin-top:7px;padding:0 36px 0 13px;border:1px solid #c9c4b9;background:var(--white);outline:none;color:var(--ink);font-size:15px}.form input:focus,.key-input:focus{border-color:var(--red)}.clear{position:absolute;right:5px;bottom:5px;width:34px;height:42px;border:0;background:transparent;color:#999;font-size:21px;cursor:pointer}.search-btn{grid-column:1/-1;height:54px;margin-top:4px;border:0;background:var(--red);color:#fff;font-weight:900;cursor:pointer}.search-btn:disabled{opacity:.6}.error{margin-top:15px;color:#a3261d;font-size:13px;font-weight:800}.key-panel{display:none;align-items:center;gap:12px;width:min(900px,100%);margin-top:18px;padding:16px;border:1px solid var(--line);background:var(--white);box-shadow:0 12px 28px rgba(0,0,0,.06)}.key-panel.open{display:flex}.key-copy{margin-right:auto}.key-copy small{display:block;margin-top:4px;color:var(--muted)}.key-wrap{position:relative;width:min(330px,100%)}.key-input{margin:0}.key-panel>button{height:44px;padding:0 20px;border:0;background:var(--ink);color:#fff;font-weight:800}.key-panel a{color:#555;font-size:12px}.results{padding:54px 5vw 84px}.section-title{display:flex;justify-content:space-between;align-items:end;margin-bottom:24px}.section-title h2{margin:8px 0 0;font-size:30px;letter-spacing:-.04em}.section-title p{color:var(--muted);font-size:13px}.safety{display:none;align-items:center;gap:14px;margin:0 0 22px;padding:14px 17px;border:1px solid}.safety.show{display:flex}.safety.safe{border-color:#b9ddc4;background:#edf8f0;color:var(--green)}.safety.warn{border-color:#efd18a;background:#fff6dd;color:#795400}.safety span{font-size:13px}.part-list{border-top:2px solid var(--ink)}.part-row{min-height:106px;display:grid;grid-template-columns:45px 90px 120px 1fr 95px;gap:16px;align-items:center;border-bottom:1px solid var(--line)}.num{color:#aaa;font-size:12px;font-weight:900}.part-name{font-size:17px;font-weight:900}.thumb{height:68px;position:relative;overflow:hidden;background:#ddd}.thumb img{width:100%;height:100%;object-fit:cover}.thumb b{position:absolute;inset:0;display:grid;place-items:center;color:#fff;text-shadow:0 2px 5px #000}.video{min-width:0}.title-line{display:flex;align-items:center;gap:9px;min-width:0}.video strong{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.video small{display:block;margin-top:6px;color:var(--muted)}.reason{font-size:11px}.badge{flex:0 0 auto;padding:5px 8px;border-radius:99px;font-size:11px;font-weight:900}.badge.ok{background:#e5f5e9;color:var(--green)}.badge.check{background:#fff0c9;color:var(--amber)}.badge.no{background:#f9deda;color:#a3261d}.open{color:var(--ink);font-size:12px;font-weight:800;text-decoration:none}.empty{grid-column:3/6;color:#999}.messages{display:grid;grid-template-columns:1fr 1fr;gap:18px}.message{margin-top:48px;border:1px solid var(--line);background:var(--white)}.message.locked{background:#f1eee7}.message-head{display:flex;justify-content:space-between;align-items:center;padding:19px 21px;border-bottom:1px solid var(--line)}.message-head span{display:block;color:var(--red);font-size:10px;font-weight:900;letter-spacing:.14em}.message-head strong{display:block;margin-top:6px}.message-head button{height:42px;padding:0 18px;border:0;background:var(--ink);color:#fff;font-weight:900;cursor:pointer}.message-head button:disabled{background:#aaa;cursor:not-allowed}.message pre{min-height:180px;margin:0;padding:23px;white-space:pre-wrap;font:14px/1.75 Arial,"Apple SD Gothic Neo",sans-serif}.locked pre{color:#8a5a00}footer{min-height:105px;padding:28px 5vw;background:var(--ink);color:#fff;display:flex;justify-content:space-between;align-items:center}footer span{color:#aaa;font-size:13px}
+    @media(max-width:900px){.form{grid-template-columns:1fr 1fr}.search-btn{grid-column:1/-1}.key-panel{align-items:stretch;flex-wrap:wrap}.key-copy{width:100%}.messages{grid-template-columns:1fr}.part-row{grid-template-columns:38px 75px 105px 1fr}.open{display:none}}
+    @media(max-width:600px){.topbar{height:64px}.hero{padding-top:45px}.hero:after{font-size:210px}.form{grid-template-columns:1fr 1fr}.form label:nth-child(5){grid-column:1/-1}.part-row{grid-template-columns:32px 70px 1fr;gap:9px;padding:13px 0}.thumb{width:100%;height:auto;aspect-ratio:16/9}.video{grid-column:3/4}.title-line{align-items:flex-start;flex-direction:column;gap:6px}.video strong{white-space:normal;font-size:13px}.empty{grid-column:3/4}.section-title p{display:none}.safety{align-items:flex-start;flex-direction:column;gap:6px}.key-panel{display:none}.key-panel.open{display:grid}.key-wrap,.key-panel>button{width:100%}.message-head{align-items:flex-start}.message-head button{padding:0 13px}.message pre{font-size:13px;padding:19px}footer{display:block}footer span{display:block;margin-top:8px}}
+  </style>
+</head>
+<body>
+  <header class="topbar"><div class="brand"><span class="logo">♪</span>찬양링크</div><button class="settings" id="settingsBtn">⚙ 설정</button></header>
+  <section class="hero">
+    <div class="eyebrow">CHOIR PRACTICE LINK FINDER</div>
+    <h1>찬양곡 하나로<br><em>파트별 연습 영상</em>을 찾습니다.</h1>
+    <p class="intro">영상의 곡명과 파트를 검증해, 안전하게 공유할 수 있는 링크만 정리합니다.</p>
+    <form class="form" id="searchForm">
+      <label>찬양대<span class="field"><input id="choir" value="예루살렘"><button class="clear" type="button">×</button></span></label>
+      <label>날짜<span class="field"><input id="date" inputmode="numeric"><button class="clear" type="button">×</button></span></label>
+      <label>출판사<span class="field"><input id="publisher" value="중앙아트"><button class="clear" type="button">×</button></span></label>
+      <label>성가곡집<span class="field"><input id="book" value="중앙성가31"><button class="clear" type="button">×</button></span></label>
+      <label>찬양곡 제목<span class="field"><input id="song" value="이 세상에 근심된 일이 많고"><button class="clear" type="button">×</button></span></label>
+      <label>페이지<span class="field"><input id="page" inputmode="numeric" value="132"><button class="clear" type="button">×</button></span></label>
+      <button class="search-btn" id="searchBtn">연습 영상 찾기</button>
+    </form>
+    <p class="error" id="error"></p>
+    <div class="key-panel" id="keyPanel">
+      <div class="key-copy"><strong>YouTube API 키</strong><small>처음 한 번만 입력하면 이 기기에 저장됩니다.</small></div>
+      <div class="key-wrap"><input class="key-input" id="apiKey" type="password" placeholder="AIza…"></div>
+      <button id="saveKey">저장</button>
+      <a href="https://console.cloud.google.com/apis/library/youtube.googleapis.com" target="_blank" rel="noreferrer">API 키 만들기</a>
+    </div>
+  </section>
+  <section class="results">
+    <div class="section-title"><div><span>검색 결과</span><h2 id="resultTitle">찬양곡 파트 연습</h2></div><p id="count">0/5개 영상이 공유 가능합니다</p></div>
+    <div class="safety" id="safety"></div>
+    <div class="part-list" id="partList"></div>
+    <div class="messages">
+      <div class="message locked" id="choirBox"><div class="message-head"><div><span>찬양대용 공지문</span><strong id="choirStatus">다섯 파트 확인 후 복사 가능</strong></div><button id="copyChoir" disabled>공유 보류</button></div><pre id="choirText">검색 후 정확도가 확인되면 공지문을 만들 수 있습니다.</pre></div>
+      <div class="message locked" id="captionBox"><div class="message-head"><div><span>자막팀용 공지문</span><strong id="captionStatus">전체 영상 확인 후 복사 가능</strong></div><button id="copyCaption" disabled>공유 보류</button></div><pre id="captionText">검색 후 전체 합창 영상이 확인되면 공지문을 만들 수 있습니다.</pre></div>
+    </div>
+  </section>
+  <footer><strong>찬양링크</strong><span>확실한 연습 영상만 안전하게 공유합니다.</span></footer>
+  <script>
+    const parts=["전체","소프라노","알토","테너","베이스"];
+    const partSearch={전체:"전체 합창 SATB",소프라노:"소프라노 soprano",알토:"알토 alto",테너:"테너 tenor",베이스:"베이스 bass"};
+    const partWords={전체:["전체","합창","full","satb","all parts","4부"],소프라노:["소프라노","soprano"],알토:["알토","alto"],테너:["테너","tenor"],베이스:["베이스","bass"]};
+    let results=[],hasSearched=false;
+    const $=id=>document.getElementById(id);
+    function nextSunday(){const d=new Date();d.setDate(d.getDate()+((7-d.getDay())%7||7));return (d.getMonth()+1)+"/"+d.getDate()}
+    function clean(s=""){return s.replace(/<[^>]+>/g,"").replace(/&amp;/g,"&").replace(/&#39;/g,"'").replace(/&quot;/g,'"')}
+    function escapeHtml(s=""){return s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+    function normalize(s=""){return clean(s).normalize("NFKC").toLowerCase().replace(/[\s'"“”‘’.,!?·:;()[\]{}_\-–—&/]/g,"")}
+    function hasWord(text,word){if(/^[a-z ]+$/.test(word))return new RegExp("\\b"+word.replace(" ","\\s+")+"\\b","i").test(text);return text.toLowerCase().includes(word)}
+    function hasPart(text,part){return partWords[part].some(word=>hasWord(text,word))}
+    function score(item,part,song,publisher,book,channelParts){
+      const text=item.title+" "+item.description,norm=normalize(text);let n=0,reasons=[];
+      if(normalize(song)&&norm.includes(normalize(song))){n+=45;reasons.push("곡명 일치")}else{n-=35;reasons.push("곡명 불확실")}
+      const specifics=parts.slice(1);
+      if(part==="전체"){if(hasPart(text,"전체")){n+=25;reasons.push("전체 합창 표시")}else if(!specifics.some(p=>hasPart(text,p))){n+=15;reasons.push("특정 파트 표기 없음")}else{n-=50;reasons.push("특정 파트 영상")}}
+      else{if(hasPart(text,part)){n+=25;reasons.push(part+" 표시")}else{n-=35;reasons.push("파트 불확실")}if(specifics.some(p=>p!==part&&hasPart(text,p))){n-=45;reasons.push("다른 파트 표기")}}
+      if(normalize(book)&&norm.includes(normalize(book))){n+=15;reasons.push("성가곡집 일치")}
+      if(normalize(publisher)&&norm.includes(normalize(publisher))){n+=10;reasons.push("출판사 일치")}
+      if((channelParts.get(item.channelId)?.size||0)>=3){n+=10;reasons.push("파트 영상 묶음 확인")}
+      n=Math.max(0,Math.min(100,n));return {score:n,confidence:n>=80?"확실":n>=60?"확인 필요":"사용 금지",reasons}
+    }
+    async function fetchCandidates(query,key){
+      const p=new URLSearchParams({part:"snippet",q:query,type:"video",maxResults:"15",relevanceLanguage:"ko",regionCode:"KR",key});
+      const response=await fetch("https://www.googleapis.com/youtube/v3/search?"+p);const data=await response.json();
+      if(!response.ok)throw new Error(data?.error?.message||"검색에 실패했습니다.");
+      return (data.items||[]).map(x=>({title:clean(x.snippet.title),description:clean(x.snippet.description||""),channel:clean(x.snippet.channelTitle),channelId:x.snippet.channelId,videoId:x.id.videoId,thumbnail:x.snippet.thumbnails?.medium?.url||x.snippet.thumbnails?.default?.url||""}))
+    }
+    function values(){return {choir:$("choir").value.trim(),date:$("date").value.trim(),publisher:$("publisher").value.trim(),book:$("book").value.trim(),song:$("song").value.trim(),page:$("page").value.trim()}}
+    function render(){
+      const v=values(),confirmed=results.filter(r=>r.confidence==="확실"),choirReady=hasSearched&&parts.every(p=>confirmed.some(r=>r.part===p)),full=confirmed.find(r=>r.part==="전체"),captionReady=hasSearched&&!!full;
+      $("resultTitle").textContent=(v.song||"찬양곡")+" 파트 연습";$("count").textContent=confirmed.length+"/5개 영상이 공유 가능합니다";
+      $("partList").innerHTML=parts.map((part,i)=>{const r=results.find(x=>x.part===part);if(!r)return '<article class="part-row"><div class="num">0'+(i+1)+'</div><div class="part-name">'+part+'</div><div class="empty">'+(hasSearched?"정확한 영상을 찾지 못했습니다.":"검색하면 검증 결과가 표시됩니다.")+'</div></article>';const cls=r.confidence==="확실"?"ok":r.confidence==="확인 필요"?"check":"no";return '<article class="part-row"><div class="num">0'+(i+1)+'</div><div class="part-name">'+part+'</div><a class="thumb" href="https://youtu.be/'+r.videoId+'" target="_blank"><img src="'+escapeHtml(r.thumbnail)+'" alt=""><b>▶</b></a><div class="video"><div class="title-line"><strong>'+escapeHtml(r.title)+'</strong><span class="badge '+cls+'">'+r.confidence+' · '+r.score+'점</span></div><small>'+escapeHtml(r.channel)+'</small><small class="reason">'+escapeHtml(r.reasons.slice(0,3).join(" · "))+'</small></div><a class="open" href="https://youtu.be/'+r.videoId+'" target="_blank">'+(r.confidence==="확실"?"영상 열기":"직접 확인")+'</a></article>'}).join("");
+      const safety=$("safety");if(hasSearched){safety.className="safety show "+(choirReady?"safe":"warn");safety.innerHTML="<strong>"+(choirReady?"✓ 찬양대용 공유 가능":"⚠ 찬양대용 공유 보류")+"</strong><span>"+(choirReady?"다섯 파트가 모두 높은 신뢰도로 확인되었습니다.":"확인 필요 영상은 공지문에 들어가지 않으며 복사 버튼도 잠깁니다.")+"</span>"}else{safety.className="safety"}
+      const heading='다음 주('+v.date+') 찬양곡은 '+v.book+', "'+v.song+'"'+(v.page?" ("+v.page+" 페이지)":"")+"입니다.";
+      const choirText=choirReady?heading+"\n"+parts.map(p=>{const r=confirmed.find(x=>x.part===p);return "\n"+p+"\nhttps://youtu.be/"+r.videoId}).join("\n"):"⚠️ 공유 보류: 정확도가 낮거나 확인되지 않은 파트 영상이 있습니다.";
+      $("choirText").textContent=choirText;$("captionText").textContent=captionReady?(v.choir?v.choir+" ":"")+heading+"\nhttps://youtu.be/"+full.videoId:"⚠️ 공유 보류: 전체 합창 영상을 정확하게 확인하지 못했습니다.";
+      $("copyChoir").disabled=!choirReady;$("copyChoir").textContent=choirReady?"찬양대용 복사":"공유 보류";$("choirStatus").textContent=choirReady?"파트별 연습 링크 포함":"다섯 파트 확인 후 복사 가능";$("choirBox").classList.toggle("locked",!choirReady);
+      $("copyCaption").disabled=!captionReady;$("copyCaption").textContent=captionReady?"자막팀용 복사":"공유 보류";$("captionStatus").textContent=captionReady?"전체 연주 링크 확인됨":"전체 영상 확인 후 복사 가능";$("captionBox").classList.toggle("locked",!captionReady);
+    }
+    $("date").value=nextSunday();$("apiKey").value=localStorage.getItem("youtube-api-key")||"";
+    document.querySelectorAll(".clear").forEach(btn=>btn.onclick=()=>{btn.previousElementSibling.value=""});
+    $("settingsBtn").onclick=()=>$("keyPanel").classList.toggle("open");
+    $("saveKey").onclick=()=>{localStorage.setItem("youtube-api-key",$("apiKey").value.trim());$("keyPanel").classList.remove("open");$("error").textContent=""};
+    $("searchForm").onsubmit=async e=>{e.preventDefault();const v=values(),key=$("apiKey").value.trim();if(!v.song){$("error").textContent="찬양곡 제목을 입력해 주세요.";return}if(!key){$("keyPanel").classList.add("open");$("error").textContent="처음 한 번만 YouTube API 키를 입력해 주세요.";return}
+      $("searchBtn").disabled=true;$("searchBtn").textContent="영상 검증 중…";$("error").textContent="";results=[];hasSearched=false;render();
+      try{const base=(v.publisher+" "+v.book+' "'+v.song+'"').trim(),batches=await Promise.all(parts.map(part=>fetchCandidates(base+" "+partSearch[part],key))),unique=new Map();batches.flat().forEach(x=>unique.set(x.videoId,x));const candidates=[...unique.values()],channelParts=new Map();
+        candidates.forEach(item=>{if(!normalize(item.title+" "+item.description).includes(normalize(v.song)))return;const found=new Set();parts.forEach(p=>{if(hasPart(item.title+" "+item.description,p))found.add(p)});if(!channelParts.has(item.channelId))channelParts.set(item.channelId,new Set());found.forEach(p=>channelParts.get(item.channelId).add(p))});
+        const used=new Set();parts.forEach(part=>{const ranked=candidates.map(item=>Object.assign({},item,{part},score(item,part,v.song,v.publisher,v.book,channelParts))).filter(x=>!used.has(x.videoId)).sort((a,b)=>b.score-a.score);if(ranked[0]&&ranked[0].score>=40){results.push(ranked[0]);used.add(ranked[0].videoId)}});hasSearched=true;render();
+      }catch(err){hasSearched=true;$("error").textContent=err.message||"검색에 실패했습니다.";render()}finally{$("searchBtn").disabled=false;$("searchBtn").textContent="연습 영상 찾기"}};
+    async function copy(id,button){await navigator.clipboard.writeText($(id).textContent);const old=button.textContent;button.textContent="✓ 복사됨";setTimeout(()=>button.textContent=old,1600)}
+    $("copyChoir").onclick=()=>copy("choirText",$("copyChoir"));$("copyCaption").onclick=()=>copy("captionText",$("copyCaption"));render();
+  </script>
+</body>
+</html>
